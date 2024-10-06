@@ -89,8 +89,8 @@ header p {
 }
 
 .anime-img {
-  width: 250%;
-  height: 200px;
+  width: 600%;
+  height: 300px;
   object-fit: cover;
   transition: transform 0.3s ease; /* Image hover effect */
 }
