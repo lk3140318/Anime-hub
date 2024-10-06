@@ -1,0 +1,140 @@
+/* Reset and basic styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f8ff; /* Light blue background */
+  color: #333;
+}
+
+/* Header */
+header {
+  text-align: center;
+  padding: 30px;
+  background-color: #4a90e2; /* Light blue color */
+  color: #fff;
+}
+
+header h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.search-bar {
+  padding: 10px;
+  width: 80%;
+  max-width: 400px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+/* Social Media Icons */
+.social-media {
+  margin-top: 15px;
+}
+
+.social-media a {
+  color: #fff;
+  margin: 0 10px;
+  font-size: 1.5rem;
+  text-decoration: none;
+  transition: transform 0.3s;
+}
+
+.social-media a:hover {
+  transform: scale(1.2); /* Slight hover zoom */
+}
+
+/* Ad Banner */
+.ad-banner {
+  text-align: center;
+  padding: 20px;
+  background-color: #e0e0e0; /* Light gray background */
+  margin: 20px 0;
+  border-radius: 5px;
+}
+
+/* Anime Grid */
+.anime-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Anime Post */
+.anime-post {
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.anime-post:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.anime-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  transition: transform 0.3s ease; /* Image hover effect */
+}
+
+.anime-img:hover {
+  transform: scale(1.05); /* Slight hover zoom for images */
+}
+
+/* Anime Content */
+.anime-content {
+  padding: 15px;
+}
+
+.anime-content h2 {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.anime-content p {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+/* Download Button */
+.download-button {
+  display: inline-block;
+  padding: 10px 15px;
+  border-radius: 5px;
+  background-color: #ff5722; /* Orange color */
+  color: #fff;
+  text-decoration: none;
+  margin-top: 10px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.download-button:hover {
+  background-color: #e64a19; /* Darker orange */
+  transform: scale(1.05); /* Slight hover zoom */
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #4a90e2;
+  color: #fff;
+}
